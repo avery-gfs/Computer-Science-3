@@ -14,6 +14,8 @@ In previous classes, you've learned the basics of programming and practiced writ
 - Algorithms (searching, sorting, greedy algorithms, dynamic programming, string matching)
 - Data structures (graphs, trees, stacks, queues, linked lists, hash tables, persistent data structures)
 
+The class will also prepare you to take the AP Computer Science A exam. As the exam approaches, we'll work on practice problems and review exam-specific information and strategies.
+
 The specific material we cover is somewhat flexible. If there are other topics that you're interested in learning about, let me know and I'll try to incorporate them into the curriculum.
 
 Our work in this class will be centered around a series of projects that each cover a new topic, with a structure that looks something like this:
