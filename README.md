@@ -34,11 +34,7 @@ Please make sure to have the following software installed for next class:
 - Java (JDK version 17 or later) https://www.oracle.com/java/technologies/downloads
 - A code editor (Visual Studio Code is recommended) https://code.visualstudio.com/Download
 
-If you install Visual Studio Code, you should also install:
-
-- The Java Language extension from Red Hat https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-dependency
-
-- The Java Project Manager extension from Microsoft https://marketplace.visualstudio.com/items?itemName=redhat.java
+If you install Visual Studio Code, you should also install the Extension Pack for Java from Microsoft https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack. After you do, uninstall the IntelliCode extension from Microsoft.
 
 ## Grading and Workload
 
@@ -72,3 +68,13 @@ You may not use Github Copilot, Replit AI, or other "code autocomplete" AI tools
 ## Feedback
 
 I'll try to provide feedback on the code you write for this class. Writing code that works is only the first step of software engineering; the next step is figuring out how to make your code modern, simple, and efficient. My hope is that getting feedback will help you level-up this important aspect of your programming skills.
+
+## Links
+
+[Java language docs](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/lang/package-summary.html)
+
+[Java util docs](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/package-summary.html)
+
+[AP CS textbook](https://runestone.academy/ns/books/published/csawesome/index.html)
+
+[Java for Python programmers](https://runestone.academy/ns/books/published/java4python/index.html?mode=browsing)
