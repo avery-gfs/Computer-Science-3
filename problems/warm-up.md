@@ -78,9 +78,9 @@
 
 40. Load the text of the play "Hamlet" and calculate the 10 words that appear most frequently in the play.
 
-41. Print out all the permutations of the numbers (1, 2, 3, 4).
+41. Print out all the permutations of the numbers (1 2 3 4).
 
-42. Print out all the subsets of the numbers (1, 2, 3, 4).
+42. Print out all the subsets of the numbers (1 2 3 4).
 
 43. Make a bar chart for a list of integers. For example, for the numbers (1 4 2 5 3) generate:
 
