@@ -2,7 +2,7 @@
 
 2. Store your name in a variable and print it out.
 
-3. Get the user's name as input and print out "Hello (name)".
+3. Get a name as input and print out "Hello (name)".
 
 4. Get a number as input and print out "even", "odd", or "zero" depending on the sign of the number.
 
@@ -14,7 +14,7 @@
 
 8. Get a string `startDay` and a number `n` as input, print out what the day of the week it will be `n` days from `startDay`.
 
-9. Print out the numbers 1 through 10 each in their own line.
+9. Print out the numbers 1 through 10 each on their own line.
 
 10. Print out the numbers 1 through 10 on the same line with spaces in between.
 
@@ -30,59 +30,57 @@
 
 16. Get numbers as input from over and over. For each input, print out the maximum of the numbers entered so far.
 
-17. Get numbers as input from over and over. For each input, print out the sum of the numbers entered so far. Stop taking input once the sum exceeds 100.
+17. Get a number `n` as input. Print out a line of "+" characters repeated `n` times.
 
-18. Get a number `n` as input. Print out a line of "+" characters repeated `n` times.
+18. Get a number `grade` as input. Print out the letter grade (A B C D F) for `grade`.
 
-19. Get a number `n` as input. Print out the `n`th letter of the alphabet.
+19. Get a number `n` as input. Print out the prime factorization of `n`.
 
-20. Get a number `grade` as input. Print out the letter grade (A B C D F) for `grade`.
+20. Print out the first 10 Fibonacci numbers.
 
-21. Get a number `n` as input. Print out the prime factorization of `n`.
+21. Split the string "once there was a way to get back homeward" into a list of words.
 
-22. Print out the first 10 Fibonacci numbers.
+22. Print out the first 10 characters of the string "once there was a way to get back homeward".
 
-23. Split the string "once there was a way to get back homeward" into a list of words.
+23. Print out the string "once there was a way to get back homeward" with the first 10 characters removed.
 
-24. Print out the first 10 characters of the string "once there was a way to get back homeward".
+24. Get a string as input. Check whether or not the string contains the substring "home".
 
-25. Print out the string "once there was a way to get back homeward" with the first 10 characters removed.
+25. Get a string as input. Check whether or not the string contains the substring "home" without using built-in string search functionality.
 
-26. Get a string as input. Check whether or not the string contains the substring "home".
+26. Get a line of input from the user that is a string of numbers separated by spaces. Convert the input to a list of numbers.
 
-27. Get a string as input. Check whether or not the string contains the substring "home" without using built-in string search functionality.
+27. Round all of the numbers in a list.
 
-28. Get a line of input from the user that is a string of numbers separated by spaces. Convert the input to a list of numbers.
+28. Filter a list of numbers to contain only even numbers.
 
-29. Filter a list of numbers to contain only even numbers.
+29. Get a list of numbers as input, sort it, and print it out.
 
-30. Round all of the numbers in a list.
+30. Get a list of numbers as input, sort it, and print it out (without using built-in sorting functionality).
 
-31. Get a list of numbers as input, sort it, and print it out.
+31. Reverse a list.
 
-32. Get a list of numbers as input, sort it, and print it out (without using built-in sorting functionality).
+32. Reverse a list without using built-in reverse functionality.
 
-33. Reverse a list.
+33. Make a list representing a deck of cards. Each card should be a string in the form "(value) (suit)" where value is one of (A 2 3 4 5 6 7 8 9 10 J K Q) and suit is one of (♠ ♥ ♣ ♦). Print out the deck.
 
-34. Reverse a list without using built-in reverse functionality.
+34. Make a copy of the card deck, shuffle the copied deck, and print it out.
 
-35. Make a list representing a deck of cards. Each card should be a string in the form "(value) (suit)" where value is one of (A 2 3 4 5 6 7 8 9 10 J K Q) and suit is one of (♠ ♥ ♣ ♦). Print out the deck.
+35. Make a copy of the card deck, shuffle the copied deck, and print it out (without using built-in shuffle functionality).
 
-36. Make a copy of the card deck, shuffle the copied deck, and print it out.
+36. Select 6 random cards from the deck (allowing duplicate selections).
 
-37. Make a copy of the card deck, shuffle the copied deck, and print it out (without using built-in shuffle functionality).
+37. Select 6 random cards from the deck (without duplicate selections).
 
-38. Select 6 random cards from the deck.
+38. Get a number `n` as input. Calculate the "change" for `n`; that is, the smallest set of quarters, dimes, nickles, and pennies to make `n` cents.
 
-39. Get a number `n` as input. Calculate the "change" for `n`; that is, the smallest set of quarters, dimes, nickles, and pennies to make `n` cents.
+39. Load the text of the play "Hamlet" and calculate the 10 words that appear most frequently in the play.
 
-40. Load the text of the play "Hamlet" and calculate the 10 words that appear most frequently in the play.
+40. Print out all the permutations of the numbers (1 2 3 4).
 
-41. Print out all the permutations of the numbers (1 2 3 4).
+41. Print out all the subsets of the numbers (1 2 3 4).
 
-42. Print out all the subsets of the numbers (1 2 3 4).
-
-43. Make a bar chart for a list of integers. For example, for the numbers (1 4 2 5 3) generate:
+42. Make a bar chart for a list of integers. For example, for the numbers (1 4 2 5 3) generate:
 
 ```
    X
