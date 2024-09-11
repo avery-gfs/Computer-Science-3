@@ -36,6 +36,7 @@
 - Static typing
 - Declaration vs initialization (why declare and not initialize)
 - `var` vs explicit types
+- Variable scope
 - `import java.util.*`
 - Printing, `Scanner`
 - Primitives: `boolean`s, `int`s, `double`s
@@ -47,7 +48,6 @@
 - Strings, `+`, `.equals`, chars
 - Conditionals, ternary operator
 - Loops
-- Variable scope
 - Reading files
 - Checked exceptions
 - Methods
