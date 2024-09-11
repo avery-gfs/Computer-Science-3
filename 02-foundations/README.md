@@ -31,7 +31,6 @@
 
 ## Java Topics
 
-- JShell
 - `Template.java`
 - Running vs compiling
 - Static typing
@@ -55,6 +54,9 @@
 - Method overloading
 - Sequence types, initialization (used to be terrible, not it's just bad)
 - Boxed types
+- Enums
+- Switch
+- Records
 
 ## To Do
 
