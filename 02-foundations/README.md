@@ -54,6 +54,7 @@
 - Methods
 - Method overloading
 - Sequence types, initialization (used to be terrible, not it's just bad)
+- Boxed types
 
 ## To Do
 
