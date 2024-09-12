@@ -4,30 +4,17 @@
 
 ## Object-Oriented Programming (in Java)
 
+- Objects: data + functionality + identity
+
 - `Playlist`
-  - Data: `title`, `songs`, `length`, `creator`, `duration`
-  - Functionality: `addSong`, `removeSong`, `play`, `delete`
+  - Data: **`title`**, **`songs`**, `length`, `creator`, **`duration`**
+  - Functionality: `addSong`, `removeSong`, **`play`**, **`delete`**
 
 - `Song`
-  - Data: `title`, `artist`, `album`, `duration`
-  - Functionality: `play`, `delete`, `addToPlaylist`
+  - Data: **`title`**, `artist`, `album`, **`duration`**
+  - Functionality: **`play`**, **`delete`**, `addToPlaylist`
 
-- Objects: data + functionality + identity
-- Why is this good? Why is this bad?
 - Java is OOP to the max
-
-- Interfaces
-  - `Playable`
-  - `LibraryItem`
-
-- Polymorphism `SearchResults`
-
-- Inheritance
-  - `Playable`
-
-- Composition
-- Encapsulation and data-hiding: `songs.add` vs `addSong`
-- Java access control makes questionable design choices (see: subsequent languages)
 
 ## Java Topics
 
@@ -37,7 +24,6 @@
 - Declaration vs initialization (why declare and not initialize)
 - `var` vs explicit types
 - Variable scope
-- `import java.util.*`
 - Printing, `Scanner`
 - Primitives: `boolean`s, `int`s, `double`s
 - Other questionably useful number types https://docs.oracle.com/javase%2Ftutorial%2F/java/nutsandbolts/datatypes.html
