@@ -59,15 +59,15 @@ There are many ways to approach this problem and structure your code. You are fr
 
 14. Load `words.txt` from its path relative to the source script, so that your program works when called outside of the project directory.
 
-15. Use `getOrDefault` if applicable.
+15. Use `HashMap.getOrDefault` if applicable.
 
 16. Use `enums` if applicable.
 
 17. Use `switch` and `yield` if applicable.
 
-18. Use `join` if applicable.
+18. Use `String.join` if applicable.
 
-19. Use `fill` if applicable.
+19. Use `Array.fill` if applicable.
 
 20. Use the `Stream` API if applicable.
 
