@@ -9,16 +9,16 @@ glyph 🟩🟩🟩🟩🟩 b d j k n q u v w x z
 
 https://en.wikipedia.org/wiki/Wordle
 
-For this assignment, you will be implementing an interactive, command-line based version of the game Wordle in Java. This problem will help you practice important concepts such as:
+For this assignment, you will be implementing an interactive, command-line based version of Wordle in Java. This problem will help you practice important concepts such as:
 
 - Static typing
 - File and terminal IO
-- Hashed data structures
 - Sequence types
 - Iteration
+- Hashed data structures
 - Methods
 
-You may have implemented a version of Wordle before; if so, your focus should be not just on recreating the game, but in attempting to optimize your code. Here are some design questions for you to consider:
+You may have implemented a version of Wordle before; if so, your focus should be not just on recreating the game, but on attempting to maximize the quality of your code. Here are some design questions for you to consider:
 
 - Is your code as straightforward as possible? Could another programmer understand how it operates without too much confusion?
 
@@ -37,7 +37,7 @@ There are many ways to approach this problem and structure your code. You are fr
 
 3. Write test cases for your grading algorithm.
 
-4. Get guess input from the user.
+4. Get a guess as input from the user.
 
 5. Split grading and UI code into separate methods.
 
@@ -51,13 +51,13 @@ There are many ways to approach this problem and structure your code. You are fr
 
 10. Display the grades for each guess in a readable way, possibly using colors. Make the input and output elements of the UI work together cleanly.
 
-11. Add code to show the user which letters have yet to be guessed, as well as the resulting colors for the letter that have been guessed.
+11. Add code to show the user which letters have yet to be guessed, as well as the "best" resulting color for each letter that has been guessed.
 
 12. Use `HashMap`s for grading guesses and keeping track of alphabet letter guess states.
 
 13. Add a "play again" option.
 
-14. Load `words.txt` from its path relative to the source script, so that your program works when it's called outside of the project directory.
+14. Load `words.txt` from its path relative to the source script, so that your program works when called outside of the project directory.
 
 15. Use `getOrDefault` if applicable.
 
@@ -73,7 +73,7 @@ There are many ways to approach this problem and structure your code. You are fr
 
 ## Extensions
 
-**Counter:** Add code that says how any words remain after the score is given for each guess.
+**Counter:** Add code to show the number of possible guesses remaining that fit previously given guess grades.
 
 **Adversary:** Implement an "adversarial" Wordle program that changes its secret word (while respecting previous guess grades) in order to prolong the game.
 
