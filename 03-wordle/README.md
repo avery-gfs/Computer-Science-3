@@ -73,7 +73,7 @@ There are many ways to approach this problem and structure your code. You are fr
 
 ## Notes
 
-- Reading files
+- Reading files (many ways to do this, but this one is short):
 
   ```java
   import java.io.IOException;
@@ -90,7 +90,7 @@ There are many ways to approach this problem and structure your code. You are fr
   }
   ```
 
-- The grade for the guess `"error"` for the actual word `"river"` should be `🟨 🟨 ⬜ ⬜ 🟩`.
+- The grade for the guess `"error"` with the actual word `"river"` should be `🟨 🟨 ⬜ ⬜ 🟩`.
 
 - `char`s vs `String`s
 
