@@ -71,6 +71,25 @@ There are many ways to approach this problem and structure your code. You are fr
 
 20. Use the `Stream` API if applicable.
 
+## Notes
+
+- Reading files
+
+  ```java
+  import java.io.IOException;
+  import java.net.URISyntaxException;
+  import java.nio.file.*;
+  import java.util.*;
+
+  class Demo {
+    public static void main(String[] args) throws IOException, URISyntaxException {
+      List<String> words = Files.readAllLines(Paths.get("words.txt"));
+
+      // ... your code here
+    }
+  }
+  ```
+
 ## Extensions
 
 **Counter:** Add code to show the number of possible guesses remaining that fit previously given guess grades.
