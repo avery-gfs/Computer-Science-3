@@ -1,23 +1,80 @@
+## Problem: Implement Wordle
+
 ```
-charm ⬜🟨⬜⬜⬜ b d e f g i j k l n o p q s t u v w x y z 
-slope ⬜🟩⬜🟩⬜ b d f g i j k n q t u v w x y z 
-fight ⬜⬜🟨🟨⬜ b d j k n q u v w x y z 
-glyph 🟩🟩🟩🟩🟩 b d j k n q u v w x z 
+charm ⬜🟨⬜⬜⬜ b d e f g i j k l n o p q s t u v w x y z
+slope ⬜🟩⬜🟩⬜ b d f g i j k n q t u v w x y z
+fight ⬜⬜🟨🟨⬜ b d j k n q u v w x y z
+glyph 🟩🟩🟩🟩🟩 b d j k n q u v w x z
 ```
 
-read words from file
-get user input
-score green letters
-score yellow letters
-validate user input
-keep getting input until game is solved
-show output using nice colors
-use enums
-use switch
-use hashset
-clear input lines
-show unused letters
-show alphabet colored by unused, gray, green, yellow
-play again y/n
-game guesser
-error + river
+https://en.wikipedia.org/wiki/Wordle
+
+For this assignment, you will be implementing an interactive, command-line based version of the game Wordle in Java. This problem will help you practice important concepts such as:
+
+- Static typing
+- File and terminal IO
+- Hashed data structures
+- Sequence types
+- Iteration
+- Methods
+
+You may have implemented a version of Wordle before; if so, your focus should be not just on recreating the game, but in attempting to optimize your code. Here are some design questions for you to consider:
+
+- Is your code as straightforward as possible? Could another programmer understand how it operates without too much confusion?
+
+- Is your code modular? For instance, if you wanted to implement a web server that graded Wordle submissions sent over a network, how much of your code would you be able to reuse?
+
+- Does your code take advantage of modern Java features?
+
+- Is your code efficient? Does it use appropriate data-structures for each task?
+
+- Does your code implement the Wordle grading rules correctly? Do you have test cases that demonstrate this? Is your code split into components that can be tested separately? "Error" and "River" are your friends here.
+
+There are many ways to approach this problem and structure your code. You are free to experiment and choose an approach that works for you. Here is a suggested list of steps to take:
+
+1. Write a scoring method that identifies the "green" letters in a guess for a given hard-coded `guess` and `answer` pair.
+2. Update your scoring method to find "yellow" letters as well.
+
+3. Write test cases for your grading algorithm.
+
+4. Get guess input from the user.
+
+5. Split grading and UI code into separate methods.
+
+6. Use iteration to get guesses from the user repeatedly. End once the correct guess is reached.
+
+7. Read the list of 5-letter words from `words.txt` into an appropriate data-structure. Use the list of words to generate a random secret word for each new game.
+
+8. Validate the user's guesses and handle invalid guesses gracefully.
+
+9. Make your code robust to whitespace and capitalization in guesses.
+
+10. Display the grades for each guess in a readable way, possibly using colors. Make the input and output elements of the UI work together cleanly.
+
+11. Add code to show the user which letters have yet to be guessed, as well as the resulting colors for the letter that have been guessed.
+
+12. Use `HashMap`s for grading guesses and keeping track of alphabet letter guess states.
+
+13. Add a "play again" option.
+
+14. Load `words.txt` from its path relative to the source script, so that your program works when it's called outside of the project directory.
+
+15. Use `getOrDefault` if applicable.
+
+16. Use `enums` if applicable.
+
+17. Use `switch` and `yield` if applicable.
+
+18. Use `join` if applicable.
+
+19. Use `fill` if applicable.
+
+20. Use the `Stream` API if applicable.
+
+## Extensions
+
+**Counter:** Add code that says how any words remain after the score is given for each guess.
+
+**Adversary:** Implement an "adversarial" Wordle program that changes its secret word (while respecting previous guess grades) in order to prolong the game.
+
+**Guesser:** Write a program to suggest guesses based on previous guesses and grades.
