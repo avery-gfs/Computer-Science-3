@@ -26,9 +26,9 @@ You may have implemented a version of Wordle before; if so, your focus should be
 
 - Does your code take advantage of modern Java features?
 
-- Is your code efficient? Does it use appropriate data-structures for each task?
+- Is your code efficient? Does it use appropriate data structures for each task?
 
-- Does your code implement the Wordle grading rules correctly? Do you have test cases that demonstrate this? Is your code split into components that can be tested separately? "Error" and "River" are your friends here.
+- Does your code implement the Wordle grading rules correctly? Do you have test cases that demonstrate this? Is your code split into components that can be tested separately? `"Error"` and `"River"` are your friends here.
 
 There are many ways to approach this problem and structure your code. You are free to experiment and choose an approach that works for you. Here is a suggested list of steps to take:
 
@@ -88,6 +88,23 @@ There are many ways to approach this problem and structure your code. You are fr
       // ... your code here
     }
   }
+  ```
+
+- The grade for the guess `"error"` for the actual word `"river"` should be `🟨🟨⬜⬜🟩`.
+
+- `char`s vs `String`s
+
+- Wrapper classes: https://www.w3schools.com/java/java_wrapper_classes.asp
+
+- When writing code to read `words.txt`, Java might complain about there being exceptions that need to be caught or thrown. In Java, some exceptions are "checked" which means that you have explicitly tell Java what to do when they arise, using either the `try` / `catch` or the `throws` language features.
+
+- If you are using an IDE like VSCode or IntelliJ, make sure that your project is structured in a way the editor can understand (your editor should have an option to make a new Java project). In particular, make sure that your `words.txt` is in your project directory, but not in your `src` directory. See the example structure below:
+
+  ```
+  Wordle/
+  ├── src/
+  │   └── Wordle.java
+  └── words.txt
   ```
 
 ## Extensions
