@@ -59,9 +59,9 @@ These are the following ordered steps I'd recommend following to solve this prob
 
 10. Display the grades for each guess in a readable way, possibly using colors. Make the input and output elements of the UI work together cleanly. See https://emojipedia.org/search?q=square and https://www.w3schools.blog/ansi-colors-java.
 
-11. Add code to show the user which letters have yet to be guessed, as well as the "best" resulting color for each letter that has been guessed.
+11. Add code to show the user which letters have yet to be guessed.
 
-12. Use `HashMap`s for grading guesses and keeping track of alphabet letter guess states.
+12. Use `HashMap`s for grading guesses and `HashSet`s keeping track of unguessed letters.
 
 13. Add a "play again" option.
 
