@@ -9,10 +9,14 @@ class Template {
     Scanner reader = new Scanner(System.in);
     List<String> words = Files.readAllLines(Paths.get("words.txt"));
 
+    // Start by making grading work for hard-coded guess and answer
+
     String guess = "emcee";
     String actual = "never";
 
     String[] score = { "⬜", "⬜", "⬜", "⬜", "⬜" };
+
+    // Only grades greens for now
 
     for (var i = 0; i < 5; i++) {
       if (guess.charAt(i) == actual.charAt(i)) {
