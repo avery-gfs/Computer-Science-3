@@ -36,7 +36,7 @@ You may have implemented a version of Wordle before; if so, your focus should be
 
 There are many ways to approach this problem and structure your code. You are free to experiment and choose an approach that works for you.
 
-You can use the code in <Template.java> as a starting point.
+You can use the code in [Template.java](Template.java) as a starting point.
 
 These are the following ordered steps I'd recommend following to solve this problem:
 
