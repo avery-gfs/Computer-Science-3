@@ -18,6 +18,8 @@ For this assignment, you will be implementing an interactive, command-line based
 - Hashed data structures
 - Methods
 
+## Design Considerations
+
 You may have implemented a version of Wordle before; if so, your focus should be not just on recreating the game, but on attempting to maximize the quality of your code. Here are some design questions for you to consider:
 
 - Is your code as straightforward as possible? Could another programmer understand how it operates without too much confusion?
@@ -30,7 +32,13 @@ You may have implemented a version of Wordle before; if so, your focus should be
 
 - Does your code implement the Wordle grading rules correctly? Do you have test cases that demonstrate this? Is your code split into components that can be tested separately? `"Error"` and `"River"` are your friends here.
 
-There are many ways to approach this problem and structure your code. You are free to experiment and choose an approach that works for you. Here is a suggested list of steps to take:
+## Solution Roadmap
+
+There are many ways to approach this problem and structure your code. You are free to experiment and choose an approach that works for you.
+
+You can use the code in <Template.java> as a starting point.
+
+These are the following ordered steps I'd recommend following to solve this problem:
 
 1. Write a scoring method that identifies the "green" letters in a guess for a given hard-coded `guess` and `answer` pair.
 2. Update your scoring method to find "yellow" letters as well.
@@ -73,26 +81,9 @@ There are many ways to approach this problem and structure your code. You are fr
 
 ## Notes
 
-- Reading files (many ways to do this, but this one is short):
-
-  ```java
-  import java.io.IOException;
-  import java.net.URISyntaxException;
-  import java.nio.file.*;
-  import java.util.*;
-
-  class Demo {
-    public static void main(String[] args) throws IOException, URISyntaxException {
-      List<String> words = Files.readAllLines(Paths.get("words.txt"));
-
-      // ... your code here
-    }
-  }
-  ```
-
 - The grade for the guess `"error"` with the actual word `"river"` should be `🟨 🟨 ⬜ ⬜ 🟩`.
 
-- `char`s vs `String`s
+- Remember that Java distinguishes between `char`s vs `String`s.
 
 - Wrapper classes: https://www.w3schools.com/java/java_wrapper_classes.asp
 
