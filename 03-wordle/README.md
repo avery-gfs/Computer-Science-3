@@ -90,7 +90,7 @@ I'd recommend following these ordered steps to solve this problem:
 
 - When writing code to read `words.txt`, Java might complain about there being exceptions that need to be caught or thrown. In Java, some exceptions are "checked" which means that you have explicitly tell Java what to do when they arise, using either the `try` / `catch` or the `throws` language features.
 
-- If you are using an IDE like VSCode or IntelliJ, make sure that your project is structured in a way the editor can understand (your editor should have an option to make a new Java project). In particular, make sure that your `words.txt` is in your project directory, but not in your `src` directory. See the example structure below:
+- If you are using an IDE like Replit, VSCode or IntelliJ, make sure that your project is structured in a way the editor can understand (your editor should have an option to make a new Java project). In particular, make sure that your `words.txt` is in your project directory, but not in your `src` directory. See the example structure below:
 
   ```
   Wordle/
