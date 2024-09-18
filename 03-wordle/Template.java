@@ -16,7 +16,7 @@ class Template {
 
     // Only grades greens for now
 
-    for (var i = 0; i < 5; i++) {
+    for (int i = 0; i < 5; i++) {
       if (guess.charAt(i) == actual.charAt(i)) {
         score[i] = "🟩";
       }
