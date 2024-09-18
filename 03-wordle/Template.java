@@ -1,10 +1,8 @@
-import java.io.IOException;
-import java.net.URISyntaxException;
 import java.nio.file.*;
 import java.util.*;
 
 class Template {
-  public static void main(String[] args) throws IOException, URISyntaxException {
+  public static void main(String[] args) throws Exception {
     Random random = new Random();
     Scanner reader = new Scanner(System.in);
     List<String> words = Files.readAllLines(Paths.get("words.txt"));
