@@ -38,9 +38,10 @@ There are many ways to approach this problem and structure your code. You are fr
 
 You can use the code in [Template.java](Template.java) as a starting point.
 
-These are the following ordered steps I'd recommend following to solve this problem:
+I'd recommend following these ordered steps to solve this problem:
 
 1. Write a scoring method that identifies the "green" letters in a guess for a given hard-coded `guess` and `answer` pair.
+
 2. Update your scoring method to find "yellow" letters as well.
 
 3. Write test cases for your grading algorithm.
