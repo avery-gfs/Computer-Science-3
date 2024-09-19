@@ -14,11 +14,27 @@ class Template {
 
     String[] score = { "⬜", "⬜", "⬜", "⬜", "⬜" };
 
-    // Only grades greens for now
+    HashMap<Character, Integer> counts = new HashMap<Character, Integer>();
 
     for (int i = 0; i < 5; i++) {
       if (guess.charAt(i) == actual.charAt(i)) {
         score[i] = "🟩";
+      } else {
+        char letter = actual.charAt(i);
+        int count = counts.getOrDefault(letter, 0);
+        counts.put(letter, count + 1);
+      }
+    }
+
+    for (int i = 0; i < 5; i++) {
+      if (!score[i].equals("🟩")) {
+        char letter = guess.charAt(i);
+        int count = counts.getOrDefault(letter, 0);
+
+        if (count > 0) {
+          score[i] = "🟨";
+          counts.put(letter, count - 1);
+        }
       }
     }
 
