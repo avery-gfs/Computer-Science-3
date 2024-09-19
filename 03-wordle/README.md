@@ -42,7 +42,7 @@ I'd recommend following these ordered steps to solve this problem:
 
 1. Write a scoring method that identifies the "green" letters in a guess for a given hard-coded `guess` and `answer` pair.
 
-2. Update your scoring method to find "yellow" letters as well. There are different ways to do this, one of them uses [`String.replaceAll`](https://docs.oracle.com/en%2Fjava%2Fjavase%2F22%2Fdocs%2Fapi%2F%2F/java.base/java/lang/String.html#replaceFirst(java.lang.String,java.lang.String)) and another uses [`HashMap`](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/HashMap.html).
+2. Update your scoring method to find "yellow" letters as well. You'll want to use [`HashMap`](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/HashMap.html) for this.
 
 3. Write test cases for your grading algorithm.
 
