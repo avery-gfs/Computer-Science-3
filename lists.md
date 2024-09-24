@@ -34,13 +34,13 @@ No equivalent of Python's `append`.
 ### Creation
 
 ```java
-List<String> dirs = List.of("north", "south", "east");
+List<String> dirs = List.of("north", "south", "east", "west");
 ```
 
 ### Printing
 
 ```java
-List<String> dirs = List.of("north", "south", "east");
+List<String> dirs = List.of("north", "south", "east", "west");
 
 System.out.println(dirs); // Prints [north, south, east, west]
 ```
@@ -48,7 +48,7 @@ System.out.println(dirs); // Prints [north, south, east, west]
 ### API
 
 ```java
-List<String> dirs = List.of("north", "south", "east");
+List<String> dirs = List.of("north", "south", "east", "west");
 
 dirs.size()                           // 4
 dirs.get(0)                           // "north" (can't use [0])
