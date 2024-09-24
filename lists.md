@@ -10,9 +10,7 @@ String[] dirs = { "north", "south", "east", "west" };
 
 ```java
 System.out.println(dirs); // Prints nonsense
-
-// Prints { "north", "south", "east", "west" }
-System.out.println(Arrays.toString(dirs));
+System.out.println(Arrays.toString(dirs)); // Prints { "north", "south", "east", "west" }
 ```
 
 ### API
@@ -22,8 +20,7 @@ dirs.length                       // 4
 dirs[0]                           // "north"
 dirs[dirs.length - 1]             // "west"
 dirs[random.nextInt(dirs.length)] // Random direction
-
-dirs[0] = "up"; // dirs = { "up", "south", "east", "west" }
+dirs[0] = "up";                   // dirs = { "up", "south", "east", "west" }
 ```
 
 ### Fixed size
@@ -122,7 +119,7 @@ classes:
 List<Character> letters = List.of('a', 'b', 'c');
 ```
 
-### Comparison
+## Comparison
 
 | Arrays                    | Immutable Lists           | Mutable Lists             |
 | ------------------------- | ------------------------- | ------------------------- |
