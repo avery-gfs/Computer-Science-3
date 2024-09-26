@@ -130,3 +130,11 @@ List<Character> letters = List.of('a', 'b', 'c');
 | 💩 Printing is annoying   | ❤️ Printing is reasonable | ❤️ Printing is reasonable |
 | 💩 No nice helper methods | ❤️ Nice helper methods    | ❤️ Nice helper methods    |
 | ❤️ Can store primitives   | 💩 No primitives          | 💩 No primitives          |
+
+## Links
+
+- https://runestone.academy/ns/books/published/csawesome/Unit6-Arrays/topic-6-1-array-basics.html
+- https://runestone.academy/ns/books/published/csawesome/Unit6-Arrays/topic-6-2-traversing-arrays.html
+- https://runestone.academy/ns/books/published/csawesome/Unit6-Arrays/topic-6-3-arrays-with-foreach.html
+- https://runestone.academy/ns/books/published/csawesome/Unit7-ArrayList/topic-7-1-arraylist-basics.html
+- https://runestone.academy/ns/books/published/csawesome/Unit7-ArrayList/topic-7-2-arraylist-methods.html
