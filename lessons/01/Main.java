@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Template {
+class Main {
   public static void main(String[] args) {
     int[] numArray = { 1, 2, 3, 4, 5};
 
@@ -18,11 +18,13 @@ class Template {
 
   static void reverseArray(int[] numbers) {
     // Write a method that reverses an Array
+    // (hint: use `.clone()`)
   }
 
   static List<Integer> reversedList(List<Integer> numbers) {
     // Write a method that that takes a List and returns
     // a new List with the values reversed
+    // (hint: use `.add()`)
     return null;
   }
 
@@ -36,6 +38,7 @@ class Template {
     // Get a string `startDay` and a number `offset` as input,
     // print out what the day of the week it will be `offset`
     // days from `startDay`
+    // (hint: use `.indexOf()`)
     return null;
   }
 }
