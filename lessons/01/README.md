@@ -83,8 +83,8 @@ List<String> mutableDirs = new ArrayList<>(List.of("north", "south", "east"));
 ```java
 List<String> mutableDirs = new ArrayList<>(List.of("north", "south", "east"));
 
-dirs.set(0, "up"); // dirs = [up, south, east, west]
-dirs.add("down");  // dirs = [up, south, east, west, down]
+mutableDirs.set(0, "up"); // mutableDirs = [up, south, east, west]
+mutableDirs.add("down");  // mutableDirs = [up, south, east, west, down]
 ```
 
 See also:
