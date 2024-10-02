@@ -35,7 +35,7 @@ class Main {
   }
 
   static String calcDay(String startDay, int offset) {
-    // Get a string `startDay` and a number `offset` as input,
+    // Given a string `startDay` and a number `offset` as input,
     // print out what the day of the week it will be `offset`
     // days from `startDay`
     // (hint: use `.indexOf()`)
