@@ -4,7 +4,7 @@
 
 - What is an algorithm https://en.wikipedia.org/wiki/Algorithm
 
-  The abstract approaches that we can use to solve a problem.
+  The abstract approach that we use to solve a problem.
 
 - Sorting algorithms https://en.wikipedia.org/wiki/Sorting_algorithm#Stability
 
