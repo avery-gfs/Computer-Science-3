@@ -16,7 +16,7 @@
 
 #### Practice
 
-[materials/selection-sort/practice.py](materials/selection-sort/practice.py)
+[materials/selection-sort/Main.java](materials/selection-sort/Main.java)
 
 ---
 
