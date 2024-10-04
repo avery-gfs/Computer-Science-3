@@ -1,3 +1,29 @@
+## Sorting and Algorithms
+
+#### Concepts
+
+- What is an algorithm https://en.wikipedia.org/wiki/Algorithm
+
+  The abstract approaches that we can use to solve a problem.
+
+- Sorting algorithms https://en.wikipedia.org/wiki/Sorting_algorithm#Stability
+
+- In-place algorithms https://en.wikipedia.org/wiki/In-place_algorithm
+
+- Invariants and correctness https://en.wikipedia.org/wiki/Invariant_(mathematics)#Invariants_in_computer_science
+
+  How do we know that an algorithm is correct? How do we know that an algorithm terminates?
+
+#### Practice
+
+[materials/selection-sort/practice.py](materials/selection-sort/practice.py)
+
+---
+
+java mutable vs immutable
+clone, copy
+reverse for loop
+
 # Syllabus: Computer Science 3
 
 ## Class Topics, Format, and Philosophy
