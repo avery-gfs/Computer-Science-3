@@ -132,7 +132,7 @@ while (n > 10) {
   // Loop while condition is true
 }
 
-// See also: do-while loops
+// See also: do-while loops, break, continue
 
 // ---- For -------------------------------------------------------
 
@@ -140,16 +140,19 @@ for (int i = 1; i <= 10; i++) {
   // Loop over a range of numbers
 }
 
-for (String name : names) { // `names` can be a List or Array
-  // Loop through a sequence of values
+for (int i = 0; i < names.length; i++) {
+  // Loop over array indices (use `.size()` for a list)
 }
 
-for (String name : names) {
-  if (name.endsWith("y")) {
-    System.out.println(name); // Print the first name ending in 'y'
-    break; // Use `break` to end a `for` or `while` loop early
-  }
+for (int i = names.length - 1; i >= 0; i--) {
+  // Loop over array indices in reverse (use `.size()` for a list)
 }
+
+for (String name : names) { // `names` can be a List or Array
+  // Loop through a sequence of values without using indices
+}
+
+// See also: break, continue
 
 // ---- Scope -----------------------------------------------------
 
@@ -239,6 +242,20 @@ bank.containsKey("Patrick") // false
 // getOrDefault, isEmpty, keySet, putAll, putIfAbsent, remove,
 // size, values
 
+// ---- Aliasing --------------------------------------------------
+
+int[] a = { 0, 1 };
+int[] b = a; // both variables point to the same array object
+b[0] = 7;    // `a` and `b` both get updated
+
+int[] c = a.clone(); // `c` is an independent copy
+c[0] = 8;            // `c` changes, `a` doesn't
+
+a.clone()            // get a copy of an array `a`
+new ArrayList<>(l)   // get a copy of a list `l`
+new HashMap<>(m)     // get a copy of a map `m`
+new HashSet<>(s)     // get a copy of a set `s`
+
 // ---- Enums -----------------------------------------------------
 
 // Use enums to represent sets of options, like compass directions
@@ -318,6 +335,16 @@ helloAll("Alice", "Bob"); // Prints "Hello Alice and Bob"
 String[] names = { "Alice", "Bob" };
 // You can also pass an Array as varargs
 helloAll(people); // Prints "Hello Alice and Bob"
+
+// ---- Generics --------------------------------------------------
+
+// Returns the second value in a list containing any
+static <T> T get2nd(List<T> values) {
+  return values.get(1);
+}
+
+get2nd(List.of(0, 1))     // 1
+get2nd(List.of("a", "b")) // "b"
 
 // ---- Classes ---------------------------------------------------
 
