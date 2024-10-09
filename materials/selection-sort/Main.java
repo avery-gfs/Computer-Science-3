@@ -22,14 +22,24 @@ class Main {
     sort(numbers);
     System.out.println(isSorted(numbers));
 
-    numbers = new ArrayList<>();
+    int upper = 10000;
 
-    for (int n = 0; n <= 100000; n++) {
-      numbers.add(n);
+    for (int m = 0; m < 5; m++) {
+      numbers = new ArrayList<>();
+
+      for (int n = 0; n < upper; n++) {
+        numbers.add(n);
+      }
+
+      long start = System.currentTimeMillis();
+      sort(numbers);
+      long end = System.currentTimeMillis();
+
+      System.out.println(isSorted(numbers));
+      System.out.println((end - start) / 1000.0);
+
+      upper *= 2;
     }
-
-    sort(numbers);
-    System.out.println(isSorted(numbers));
   }
 
   static boolean isSorted(List<Integer> numbers) {
