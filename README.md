@@ -1,7 +1,5 @@
 ## Sorting and Algorithms
 
-## Sorting and Algorithms
-
 - What is an algorithm https://en.wikipedia.org/wiki/Algorithm
 
   The abstract approach that we use to solve a problem.
@@ -10,15 +8,19 @@
 
 - In-place algorithms https://en.wikipedia.org/wiki/In-place_algorithm
 
-- Invariants and correctness https://en.wikipedia.org/wiki/Invariant_(mathematics)#Invariants_in_computer_science
+- Invariants and correctness
+  https://en.wikipedia.org/wiki/Invariant_(mathematics)#Invariants_in_computer_science
 
-  How do we know that an algorithm is correct? How do we know that an algorithm terminates?
+  How do we know that an algorithm is correct? How do we know that an algorithm
+  terminates?
 
 Playing cards sorting demo.
 
 ## Mutability
 
-Methods can mutate their inputs, or they can leave their input unchanged and return a new structure. Compare the following two implementations of a `triple` function.
+Methods can mutate their inputs, or they can leave their input unchanged and
+return a new structure. Compare the following two implementations of a `triple`
+function.
 
 ```java
 void triple(List<Integer> numbers) {
@@ -81,7 +83,8 @@ List<Integer> triple(List<Integer> numbers) {
   dirs.get(random.nextInt(dirs.size())) // Random direction
   ```
 
-- Immutability: `List.of` makes an immutable list that we can't update or add to.
+- Immutability: `List.of` makes an immutable list that we can't update or add
+  to.
 
   ```java
   List<String> dirs = List.of("north", "south", "east");
@@ -130,8 +133,7 @@ List<Integer> triple(List<Integer> numbers) {
   List<char> letters = List.of('a', 'b', 'c'); // Doesn't work
   ```
 
-  We can't declare a list of primitives, we have to use wrapper
-  classes:
+  We can't declare a list of primitives, we have to use wrapper classes:
 
   - `int` -> `Integer`
   - `double` -> `Double`
@@ -181,4 +183,5 @@ https://runestone.academy/ns/books/published/csawesome/Unit6-Arrays/topic-6-3-ar
 
 ## Java Syntax
 
-See my (evolving) Java cheatsheet: [materials/cheatsheet/cheatsheet.java](materials/cheatsheet/cheatsheet.java).
+See my (evolving) Java cheatsheet:
+[materials/cheatsheet/cheatsheet.java](materials/cheatsheet/cheatsheet.java).
