@@ -14,8 +14,21 @@ class Main {
   }
 
   static boolean isSorted(List<Integer> numbers) {
-    // Check whether or not a list is sorted (from low to high)
-    return false;
+    // Checks whether or not a list is sorted (from low to high)
+    
+    if (!numbers.isEmpty()) {
+      int prev = numbers.get(0);
+
+      for (int n : numbers) {
+        if (prev > n) {
+          return false;
+        }
+
+        prev = n;
+      }
+    }
+
+    return true;
   }
 
   static void sort(List<Integer> numbers) {
