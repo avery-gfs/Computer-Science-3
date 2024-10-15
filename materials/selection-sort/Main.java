@@ -34,5 +34,13 @@ class Main {
   static void sort(List<Integer> numbers) {
     // Sort numbers in place using the selection sort algorithm
     // https://en.wikipedia.org/wiki/Selection_sort
+
+    // Pseudocode:
+    // 
+    // - Initialize a variable pointer to the first index in the list
+    // - While pointer is less than the length of the list:
+    //   - Find the index (maxIndex) of the largest number between index
+    //     pointer and the end of the list
+    //   - Swap the value at pointer and the value at maxIndex
   }
 }
