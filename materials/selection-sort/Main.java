@@ -39,7 +39,7 @@ class Main {
     // 
     // - Initialize a variable pointer to the first index in the list
     // - While pointer is less than the length of the list:
-    //   - Find the index (maxIndex) of the largest number between index
+    //   - Find the index (minIndex) of the smallest number between index
     //     pointer and the end of the list
     //   - Swap the value at pointer and the value at maxIndex
   }
