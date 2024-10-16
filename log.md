@@ -3,6 +3,8 @@
 | coding interview practice |     | x   |
 | selection sort start      | x   | x   |
 | selection sort finish     |     |     |
+| langauge features         |     |     |
+| classes                   |     |     |
 | stack                     |     |     |
 | queue                     |     |     |
 | calculator                |     |     |
@@ -22,3 +24,5 @@ Changes for next time:
   a single class period), or long (multiple days working on a problem set).
   Medium (one problem in class time) doesn't work as well, harder to time and
   worse engagement.
+- Class should be taught in Python. Java doesn't lend itself well to exploring
+  algorithms, and Python now gives us the ability to work with static types.
