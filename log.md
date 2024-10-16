@@ -5,6 +5,7 @@
 | selection sort finish     |     |     |
 | stack                     |     |     |
 | queue                     |     |     |
+| calculator                |     |     |
 | recursion                 |     |     |
 | google maps paths         |     |     |
 | topics in security        |     |     |
@@ -17,3 +18,7 @@ Changes for next time:
 - Don't to sorting until later in the year, after getting more practice with
   Java
 - Motivating examples: you don't know how to do this, now you will learn
+- Either short feedback cycles (solve multiple problems and go over solutions in
+  a single class period), or long (multiple days working on a problem set).
+  Medium (one problem in class time) doesn't work as well, harder to time and
+  worse engagement.
