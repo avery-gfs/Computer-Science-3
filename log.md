@@ -32,9 +32,29 @@ Outline:
 - Algorithmic analysis
 - Recursion
 - Reading software
+- Design principles
+- Refactoring
+- Testing
 - Computer internals
+- Concurrency and parallelism
 - Programming language design and implementation
 - AP review
+
+Design principles:
+
+- Modularity
+- Orthogonality
+- Encapsulation
+- Composition
+- DRY
+- Zero-one-infinity
+- Fail fast
+- Immutability
+- Persistence
+- Fault-tolerance
+- Idempotence
+- Total vs partial
+- Side effects
 
 Changes for next time:
 
