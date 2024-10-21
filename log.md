@@ -1,9 +1,9 @@
 | Topic                     | 1   | 2   |
 | ------------------------- | --- | --- |
-| coding interview practice |     | x   |
+| coding interview practice | x   | x   |
 | selection sort start      | x   | x   |
 | selection sort finish     |     |     |
-| langauge features         |     |     |
+| language features         |     |     |
 | classes                   |     |     |
 | stack                     |     |     |
 | queue                     |     |     |
@@ -11,6 +11,30 @@
 | recursion                 |     |     |
 | google maps paths         |     |     |
 | topics in security        |     |     |
+
+Outline:
+
+- Java basics
+- Primitives
+- IO
+- Control structures
+- Methods
+- Sequence types
+- Hashed types
+- Enums and switch
+- Classes
+- Generics
+- Interfaces
+- Polymorphism
+- Inheritance
+- Data structures
+- Algorithms
+- Algorithmic analysis
+- Recursion
+- Reading software
+- Computer internals
+- Programming language design and implementation
+- AP review
 
 Changes for next time:
 
