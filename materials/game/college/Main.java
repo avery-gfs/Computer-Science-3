@@ -26,7 +26,7 @@ class Main {
         - Go to office hours
       """);
 
-      String choice = Game.getInput("Work", "Rest", "Office hours");
+      String choice = UserInput.getInput("Work", "Rest", "Office hours");
 
       // Switch is an alternative to if/else, allows us to match a
       // value with number of different options
@@ -49,15 +49,15 @@ class Main {
           break;
 
         default:
-          return; // Exit loop
+          return; // Exit loop (returns from function and end game)
       }
 
       if (energy <= 0 || gpa <= 0) {
         String cause = energy <= 0 ? "exhaustion" : "failure";
         System.out.println("You lose (" + cause + ")\n");
 
-        if (!Game.getInput("Restart").equals("Restart")) {
-          return; // Exit loop
+        if (!UserInput.getInput("Restart").equals("Restart")) {
+          return; // Exit loop (returns from function and end game)
         }
 
         // Reset stats
@@ -68,18 +68,23 @@ class Main {
   }
 }
 
-class Game {
+class UserInput {
+  // Static methods and attributes belong to a class itself,
+  // rather than an instance of the class
+
   // We could put this definition in getInput, but then we'd be
   // re-creating a new Scanner object for each getInput call.
   // This way we can re-use the same Scanner object.
   static Scanner reader = new Scanner(System.in);
 
-  // Static methods belong to a class itself, not an instance
+  // Clears the console
   static void clear() {
-    System.out.print("\033[H\033[2J"); // clear console
+    System.out.print("\033[H\033[2J");
   }
 
-  // Get input takes a flexible number of arguments
+  // Allows the user to choose an option by entering a number
+  // Returns the String option that the user chose
+  // Takes a flexible number of arguments (varargs)
   static String getInput(String ...options) {
     System.out.println("Your options are:\n");
 
