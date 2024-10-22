@@ -2,7 +2,7 @@
 | ------------------------- | --- | --- |
 | coding interview practice | x   | x   |
 | selection sort start      | x   | x   |
-| selection sort finish     |     |     |
+| selection sort finish     |     | x   |
 | adventure game            |     |     |
 | language features         |     |     |
 | classes                   |     |     |
