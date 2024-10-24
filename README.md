@@ -26,7 +26,7 @@ methods; this contrast is misleading, as these concepts are orthogonal_.
 
 There are `3` distinct ways to tile a `2x3` board with `2x1` tiles.
 
-How many distinct ways are there to tile `2x10` board with `2x1` tiles. Find a
+How many distinct ways are there to tile `2x10` board with `2x1` tiles? Find a
 proof for the correctness of your answer.
 
 _Hint: [Fibonacci](https://en.wikipedia.org/wiki/Fibonacci_sequence)_
@@ -57,13 +57,13 @@ Starting from `n = 1`, can you reach `n = 24`? Either find a sequence of
 transitions using the rules above that gets you from `1` to `24`, or prove that
 none exists.
 
-_Hint: look for a pattern in what numbers can and can't be reached starting from
+_Hint: Look for a pattern in what numbers can and can't be reached starting from
 1 using these rules. Prove that this pattern always holds no matter how many
 times the rules are applied._
 
 **Chessboard tiling problem**
 
-![tiles example](materials/invariants/tiles.png)
+![tiles example](materials/invariants/board.png)
 
 You have a chessboard (an `8x8` grid of checkered light and dark squares) which
 is missing its two corner dark squares, leaving `62` squares remaining. Can you
