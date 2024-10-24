@@ -22,6 +22,8 @@ methods; this contrast is misleading, as these concepts are orthogonal_.
 
 ## Induction
 
+**Induction Tiling Puzzle:**
+
 ![tiles example](materials/induction/tiles.png)
 
 There are `3` distinct ways to tile a `2x3` board with `2x1` tiles.
@@ -29,11 +31,11 @@ There are `3` distinct ways to tile a `2x3` board with `2x1` tiles.
 How many distinct ways are there to tile `2x10` board with `2x1` tiles? Find a
 proof for the correctness of your answer.
 
-_Hint: [Fibonacci](https://en.wikipedia.org/wiki/Fibonacci_sequence)_
+_Hint: [look at the Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence)_
 
 ## Invariants
 
-**12(3)4 Puzzle**
+**12(3)4 Puzzle:**
 
 Starting with a number `n`, you have two choices:
 
@@ -61,13 +63,15 @@ _Hint: Look for a pattern in what numbers can and can't be reached starting from
 1 using these rules. Prove that this pattern always holds no matter how many
 times the rules are applied._
 
-**Chessboard tiling problem**
+**Chessboard Tiling Puzzle:**
 
 ![tiles example](materials/invariants/board.png)
 
 You have a chessboard (an `8x8` grid of checkered light and dark squares) which
 is missing its two corner dark squares, leaving `62` squares remaining. Can you
 tile this board with `2x1` tiles? Provide a tiling, or a proof that none exists.
+
+*Hint: use the fact that checkered pattern to your advantage.*
 
 ## Bar Chart Coding Interview Practice
 
