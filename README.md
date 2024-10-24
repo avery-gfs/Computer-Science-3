@@ -20,6 +20,55 @@ Java Notes:
 _Note that these links make a contrast between static methods and public
 methods; this contrast is misleading, as these concepts are orthogonal_.
 
+## Induction
+
+![tiles example](materials/induction/tiles.png)
+
+There are `3` distinct ways to tile a `2x3` board with `2x1` tiles.
+
+How many distinct ways are there to tile `2x10` board with `2x1` tiles. Find a
+proof for the correctness of your answer.
+
+_Hint: [Fibonacci](https://en.wikipedia.org/wiki/Fibonacci_sequence)_
+
+## Invariants
+
+**12(3)4 Puzzle**
+
+Starting with a number `n`, you have two choices:
+
+1. You can add `3` to `n`:
+
+```java
+n += 3;
+```
+
+2. If `n` is even, you can divide `n` by `2`:
+
+```java
+if (n % 2 == 0) {
+  n /= 2;
+}
+```
+
+You may repeat this process as many times as you like.
+
+Starting from `n = 1`, can you reach `n = 24`? Either find a sequence of
+transitions using the rules above that gets you from `1` to `24`, or prove that
+none exists.
+
+_Hint: look for a pattern in what numbers can and can't be reached starting from
+1 using these rules. Prove that this pattern always holds no matter how many
+times the rules are applied._
+
+**Chessboard tiling problem**
+
+![tiles example](materials/invariants/tiles.png)
+
+You have a chessboard (an `8x8` grid of checkered light and dark squares) which
+is missing its two corner dark squares, leaving `62` squares remaining. Can you
+tile this board with `2x1` tiles? Provide a tiling, or a proof that none exists.
+
 ## Bar Chart Coding Interview Practice
 
 Print a bar chart based on the numbers in the list `numbers` where each number
