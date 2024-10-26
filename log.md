@@ -1,22 +1,22 @@
 | Topic                     | 1   | 2   |
 | ------------------------- | --- | --- |
-| coding interview practice | x   | x   |
-| selection sort start      | x   | x   |
-| selection sort finish     |     | x   |
-| Invariants                |     |     |
-| Induction                 |     |     |
+| Coding interview practice | x   | x   |
+| Selection sort start      | x   | x   |
+| Selection sort finish     | x   | x   |
+| Math problems             | x   | x   |
+| Tile Generation           | x   |     |
 | Coins naive               |     |     |
 | Coins DP                  |     |     |
 | Lattice paths DP          |     |     |
-| adventure game            |     |     |
-| language features         |     |     |
-| classes                   |     |     |
-| stack                     |     |     |
-| queue                     |     |     |
-| calculator                |     |     |
-| recursion                 |     |     |
-| google maps paths         |     |     |
-| topics in security        |     |     |
+| Adventure game            |     |     |
+| Language features         |     |     |
+| Classes                   |     |     |
+| Stack                     |     |     |
+| Queue                     |     |     |
+| Calculator                |     |     |
+| Recursion                 |     |     |
+| Google maps paths         |     |     |
+| Topics in security        |     |     |
 
 Outline:
 
@@ -76,3 +76,4 @@ Changes for next time:
   worse engagement.
 - Class should be taught in Python. Java doesn't lend itself well to exploring
   algorithms, and Python now gives us the ability to work with static types.
+- Present chessboard problem as lecture instead of assigning it
