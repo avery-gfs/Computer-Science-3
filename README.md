@@ -20,58 +20,38 @@ Java Notes:
 _Note that these links make a contrast between static methods and public
 methods; this contrast is misleading, as these concepts are orthogonal_.
 
-## Induction
-
-**Induction Tiling Puzzle:**
-
-![tiles example](materials/induction/tiles.png)
-
-There are `3` distinct ways to tile a `2x3` board with `2x1` tiles.
-
-How many distinct ways are there to tile `2x10` board with `2x1` tiles? Find a
-proof for the correctness of your answer.
-
-_Hint: [look at the Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence)_
-
-## Invariants
-
-**12(3)4 Puzzle:**
-
-Starting with a number `n`, you have two choices:
-
-1. You can add `3` to `n`:
-
-```java
-n += 3;
-```
-
-2. If `n` is even, you can divide `n` by `2`:
-
-```java
-if (n % 2 == 0) {
-  n /= 2;
-}
-```
-
-You may repeat this process as many times as you like.
-
-Starting from `n = 1`, can you reach `n = 24`? Either find a sequence of
-transitions using the rules above that gets you from `1` to `24`, or prove that
-none exists.
-
-_Hint: Look for a pattern in what numbers can and can't be reached starting from
-1 using these rules. Prove that this pattern always holds no matter how many
-times the rules are applied._
+## Computational Reasoning and Proofs
 
 **Chessboard Tiling Puzzle:**
 
-![tiles example](materials/invariants/board.png)
+![tiles example](materials/chessboard/board.png)
 
 You have a chessboard (an `8x8` grid of checkered light and dark squares) which
 is missing its two corner dark squares, leaving `62` squares remaining. Can you
 tile this board with `2x1` tiles? Provide a tiling, or a proof that none exists.
 
-*Hint: use the fact that checkered pattern to your advantage.*
+_In this problem, "tiling" means covering the board with tiles so that each tile
+covers two squares, each square is covered by a tile, and no tiles overlap or
+hang off the edge of the board._
+
+_Hint: use the fact that checkered pattern to your advantage._
+
+**Solution:**
+
+If you try to find a tiling for the board, you'll find that it seems impossible.
+But how do we prove that?
+
+Notice that the board starts with `62` square, of which `32` are light and `30`
+are dark. When we place a `2x1` tile on the board, it will always cover one
+light square and one dark square. With each tile we add, we therefore decrease
+the number of uncovered light and dark squares by one each. Therefore, the
+number of uncovered light squares will always be `2` more than the number of
+uncovered dark squares.
+
+Once we've placed `30` tiles on the board, we'll always have two uncovered light
+squares remaining. Since those two light squares will never be adjacent, it will
+always be impossible to cover the last two squares with a single tile.
+Therefore, it is impossible to completely tile the board.
 
 ## Bar Chart Coding Interview Practice
 
