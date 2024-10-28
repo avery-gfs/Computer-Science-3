@@ -27,7 +27,7 @@ methods; this contrast is misleading, as these concepts are orthogonal_.
 ![tiles example](materials/chessboard/board.png)
 
 You have a chessboard (an `8x8` grid of checkered light and dark squares) which
-is missing its two corner dark squares, leaving `62` squares remaining. Can you
+is missing its two dark corner squares, leaving `62` squares remaining. Can you
 tile this board with `2x1` tiles? Provide a tiling, or a proof that none exists.
 
 _In this problem, "tiling" means covering the board with tiles so that each tile
