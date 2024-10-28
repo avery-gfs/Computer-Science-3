@@ -1,25 +1,3 @@
-## Adventure Game and OOP
-
-Topics:
-
-- Method definition, parameters, return values
-- Attributes
-- Static vs instance methods and attributes (`Math.sqrt` vs `List.size()`)
-- Where we can and can't access static methods and attributes
-- `switch` statements, avoiding fallthrough
-- State machines https://developer.mozilla.org/en-US/docs/Glossary/State_machine
-
-Java Notes:
-
-- https://www.w3schools.com/java/java_methods_param.asp
-- https://www.w3schools.com/java/java_methods_return.asp
-- https://www.w3schools.com/java/java_classes.asp
-- https://www.w3schools.com/java/java_class_attributes.asp
-- https://www.w3schools.com/java/java_class_methods.asp
-
-_Note that these links make a contrast between static methods and public
-methods; this contrast is misleading, as these concepts are orthogonal_.
-
 ## Computational Reasoning and Proofs
 
 **Chessboard Tiling Puzzle:**
