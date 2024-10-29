@@ -20,15 +20,15 @@ class Main {
       // successive step of board tilings
 
       for (List<Boolean> board : oldBoards) {
-        // (1)
-        // (2)
-        // (3)
+        List<Boolean> newBoard = new ArrayList<>(board);
+        newBoard.add(false);
+        newBoards.add(newBoard);
       }
 
       for (List<Boolean> board : currentBoards) {
-        // (4)
-        // (5)
-        // (6)
+        List<Boolean> newBoard = new ArrayList<>(board);
+        newBoard.add(true);
+        newBoards.add(newBoard);
       }
 
       // Update for the next iteration
