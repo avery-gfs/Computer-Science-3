@@ -12,7 +12,16 @@ class Main {
     //
     // How many different ways can £2 be made using any number of coins?
 
+    int goal = 200;
     int count = 0;
+
+    long start = System.currentTimeMillis();
+
+    // Your code goes here!
+
+    long end = System.currentTimeMillis();
+
     System.out.println(count);
+    System.out.println("Seconds: " + (end - start) / 1000.0);
   }
 }
