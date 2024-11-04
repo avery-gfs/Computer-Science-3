@@ -1,22 +1,24 @@
-| Topic                     | 1   | 2   |
-| ------------------------- | --- | --- |
-| Coding interview practice | x   | x   |
-| Selection sort start      | x   | x   |
-| Selection sort finish     | x   | x   |
-| Math problems             | x   | x   |
-| Tile Generation           | x   |     |
-| Coins naive               |     |     |
-| Coins DP                  |     |     |
-| Lattice paths DP          |     |     |
-| Adventure game            |     |     |
-| Language features         |     |     |
-| Classes                   |     |     |
-| Stack                     |     |     |
-| Queue                     |     |     |
-| Calculator                |     |     |
-| Recursion                 |     |     |
-| Google maps paths         |     |     |
-| Topics in security        |     |     |
+| Topic                           | 1   | 2   |
+| ------------------------------- | --- | --- |
+| Coding interview practice       | x   | x   |
+| Selection sort start            | x   | x   |
+| Selection sort finish           | x   | x   |
+| Math problems                   | x   | x   |
+| Tile Generation                 | x   |     |
+| Review math                     |     |     |
+| Coins naive, optimization       |     |     |
+| Pair programming, collaboration |     |     |
+| Coins DP                        |     |     |
+| Lattice paths DP                |     |     |
+| Adventure game                  |     |     |
+| Language features               |     |     |
+| Classes                         |     |     |
+| Stack                           |     |     |
+| Queue                           |     |     |
+| Calculator                      |     |     |
+| Recursion                       |     |     |
+| Google maps paths               |     |     |
+| Topics in security              |     |     |
 
 Outline:
 
@@ -77,3 +79,4 @@ Changes for next time:
 - Class should be taught in Python. Java doesn't lend itself well to exploring
   algorithms, and Python now gives us the ability to work with static types.
 - Present chessboard problem as lecture instead of assigning it
+- Grade assignments for work and collect submissions
