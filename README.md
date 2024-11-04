@@ -1,8 +1,62 @@
+## Dynamic Programming
+
+**Lattice Paths Puzzle:**
+
+Starting in the top left corner of a `2 x 2` grid, and only being able to move
+to the right and down, there are exactly `6` routes to the bottom right corner.
+
+![lattice image](materials/tiles/lattice.png)
+
+How many such routes are there through a `20 x 20` grid?
+
+What if we block off some of the nodes (connecting points) in the grid. How
+would we calculate the number of paths from the top left corner to the bottom
+right given some set of blocked nodes?
+
+## Cartesian Product
+
+https://en.wikipedia.org/wiki/Cartesian_product
+
+How do we calculate the size of the cartesian product of a collection of sets of
+different sizes?
+
+```java
+import java.util.*;
+
+// Generate a deck of SET! cards by taking the cartesian product
+// of the four card properties: count, shape, shading, and color
+
+// https://en.wikipedia.org/wiki/Set_(card_game)
+// https://en.wikipedia.org/wiki/Cartesian_product
+
+class Main {
+  public static void main(String[] args) {
+    List<String> counts = List.of("one", "two", "three");
+    List<String> shapes = List.of("diamond", "squiggle", "oval");
+    List<String> shadings = List.of("solid", "striped", "open");
+    List<String> colors = List.of("red", "green", "purple");
+
+    // These nested loops will print out all 81 combinations of the values
+    // in the property lists above
+
+    for (String count : counts) {
+      for (String shape : shapes) {
+        for (String shading : shadings) {
+          for (String color : colors) {
+            System.out.println(String.join(" ", count, shape, shading, color));
+          }
+        }
+      }
+    }
+  }
+}
+```
+
 ## Computational Reasoning and Proofs
 
 **Chessboard Tiling Puzzle:**
 
-![tiles example](materials/chessboard/board.png)
+![tiles image](materials/chessboard/board.png)
 
 You have a chessboard (an `8x8` grid of checkered light and dark squares) which
 is missing its two dark corner squares, leaving `62` squares remaining. Can you
