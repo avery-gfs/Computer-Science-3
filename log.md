@@ -4,9 +4,11 @@
 | Selection sort start            | x   | x   |
 | Selection sort finish           | x   | x   |
 | Math problems                   | x   | x   |
-| Tile Generation                 | x   |     |
-| Review math                     |     |     |
+| Tile Generation                 | x   | x   |
+| Review math                     | x   | x   |
 | Coins naive, optimization       |     |     |
+| Cartesian product               |     |     |
+| Lattice Paths                   |     |     |
 | Pair programming, collaboration |     |     |
 | Coins DP                        |     |     |
 | Lattice paths DP                |     |     |
