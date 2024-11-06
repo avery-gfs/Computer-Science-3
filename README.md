@@ -4,12 +4,12 @@ https://en.wikipedia.org/wiki/Dynamic_programming#Computer_science
 
 - [Optimal Substructure](https://en.wikipedia.org/wiki/Optimal_substructure)
 
-  > Optimal substructure means that the solution to a given optimization problem can be obtained by the combination of optimal solutions to its sub-problems
+  > In computer science, a problem is said to have optimal substructure if an optimal solution can be constructed from optimal solutions of its subproblems.
 
 - [Overlapping subproblems](https://en.wikipedia.org/wiki/Overlapping_subproblems)
 
   > In computer science, a problem is said to have overlapping subproblems if the problem can be broken down into subproblems which are reused several times or a recursive algorithm for the problem solves the same subproblem over and over rather than always generating new subproblems.
-  
+
 ## Cartesian Product
 
 https://en.wikipedia.org/wiki/Cartesian_product
