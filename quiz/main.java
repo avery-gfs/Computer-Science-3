@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+class Main {
   public static void main(String[] args) {
     var quiz = new Quiz();
 
@@ -23,14 +23,14 @@ class Question {
   // Keep track of the question and answer text, as
   // well as the response from the user
 
-  String question;
+  String prompt;
   String answer;
   String response;
 
   // Share one scanner instance between all Questions
   static Scanner scanner = new Scanner(System.in);
 
-  Question(String question, String answer) {
+  Question(String prompt, String answer) {
     // Your code goes here !!
   }
 
@@ -70,6 +70,13 @@ class Question {
 class Quiz {
   List<Question> questions = new ArrayList<>();
 
+  void addQuestion(String prompt, String answer) {
+    // Add a new question to the quiz for
+    // the given question and answer pair
+    
+    // Your code goes here !!
+  }
+
   void runQuiz() {
     // Have the user respond to each question, then
     // print out the results for each question and
@@ -95,12 +102,5 @@ class Quiz {
     }
 
     System.out.println("Score: " + score + " of " + total);
-  }
-
-  void addQuestion(String question, String answer) {
-    // Add a new question to the quiz for
-    // the given question and answer pair
-    
-    // Your code goes here !!
   }
 }

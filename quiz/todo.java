@@ -1,13 +1,14 @@
 import java.util.*;
 
-public class Main {
+class Main {
   public static void main(String[] args) {
     var todo = new ToDo();
-    todo.addTask("Water dog");
-    todo.addTask("Feed dog");
+    
     todo.addTask("Water plants");
+    todo.addTask("Feed dog");
     todo.markDone("Feed dog");
-    todo.removeTask("Water dog");
+    // todo.removeTask("Feed dog");
+
     System.out.println(todo);
   }
 }
@@ -20,8 +21,8 @@ class Task {
     this.label = label;
   }
 
-  boolean matches(String label) {
-    return this.label.equals(label);
+  boolean matches(String query) {
+    return label.equals(query);
   }
 
   public String toString() {
